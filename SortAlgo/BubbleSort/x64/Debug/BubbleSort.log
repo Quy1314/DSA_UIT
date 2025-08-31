@@ -1,0 +1,3 @@
+﻿  BubbleSort.cpp
+C:\Users\Hoang Quy\OneDrive\Tài liệu\UITTT\Data Structure and Algorithms\SortAlgo\BubbleSort\BubbleSort.cpp(11,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  BubbleSort.vcxproj -> C:\Users\Hoang Quy\OneDrive\Tài liệu\UITTT\Data Structure and Algorithms\SortAlgo\x64\Debug\BubbleSort.exe
