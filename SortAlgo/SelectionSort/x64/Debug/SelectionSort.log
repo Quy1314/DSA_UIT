@@ -1,3 +1,1 @@
-﻿  SelectionSort.cpp
-C:\Users\Hoang Quy\OneDrive\Tài liệu\UITTT\Data Structure and Algorithms\SortAlgo\SelectionSort\SelectionSort.cpp(11,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  SelectionSort.vcxproj -> C:\Users\Hoang Quy\OneDrive\Tài liệu\UITTT\Data Structure and Algorithms\SortAlgo\x64\Debug\SelectionSort.exe
+﻿
