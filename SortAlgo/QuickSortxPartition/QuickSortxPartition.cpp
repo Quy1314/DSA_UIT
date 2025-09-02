@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <vector>
 using namespace std;
-
+int Lomution_Partition(vector<int>& arr, int low, int high);
 int Partition(vector<int>& arr, int low, int high);
 void QuickSort(vector<int>& arr, int low, int high);
 
@@ -46,4 +46,17 @@ void QuickSort(vector<int>& arr, int low, int high) {
 		QuickSort(arr, low, pivot - 1);
 		QuickSort(arr, pivot + 1, high);
 	}
+}
+
+int Lomution_Partition(vector<int>& arr, int low, int high) {
+	int pivot = arr[high];
+	int i = low - 1;
+	for(int j= low ; j < high; j++) {
+		if (arr[j] < pivot) {
+			i++;
+			swap(arr[i], arr[j]);
+		}
+	}
+	swap(arr[i + 1], arr[high]);
+	return i + 1;
 }
